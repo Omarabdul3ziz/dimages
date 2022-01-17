@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update &&\
     apt upgrade -y
 
-RUN apt install -y vim curl iputils-ping python3 openssh-server
+RUN apt install -y vim curl iputils-ping python3 openssh-server docker.io nginx 
 
 RUN curl -sL https://deb.nodesource.com/setup_14.x  | bash - &&\
     apt -y install nodejs &&\

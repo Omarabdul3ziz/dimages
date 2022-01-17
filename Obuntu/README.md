@@ -47,5 +47,5 @@ A docker image based on `ubuntu:20.04` with some extra config for testing.
 - [x] ssh
 - [x] node
 - [x] yarn
-- [ ] nginx
-- [ ] docker
+- [x] nginx
+- [x] docker
